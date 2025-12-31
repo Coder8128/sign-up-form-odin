@@ -76,6 +76,8 @@ h2 {
 
 }
 
-form {
+form::after {
+    width: 200px;
+    height: 200px;
     background-color: white;
 }
